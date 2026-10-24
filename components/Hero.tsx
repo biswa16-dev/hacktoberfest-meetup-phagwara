@@ -1,3 +1,6 @@
+
+import Link from "next/link";
+
 const registrationUrl =
   "https://events.mlh.com/events/15402-hacktoberfest-meetup-phagwara-x-aws-student-builder-group-at-lpu";
 
@@ -109,16 +112,15 @@ export default function Hero() {
                 <span aria-hidden="true" className="text-lg">↗</span>
               </a>
 
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSdxqxN5dsU1LIJ6xw5M574EY92OE7Chq9ythi6O1HAvMSnE2Q/viewform?usp=dialog"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex w-fit items-center gap-5 border-2 border-[#2055a5] px-6 py-[14px] font-mono text-[10px] font-bold uppercase tracking-[0.13em] text-[#2055a5] transition-colors hover:bg-[#2055a5] hover:text-white sm:text-xs"
-              >
-                Call for Speakers
-                <span aria-hidden="true" className="text-lg">↗</span>
-              </a>
-              
+              <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
+                <Link
+                  href="/attendees"
+                  className="inline-flex w-fit shrink-0 items-center gap-5 bg-black px-6 py-4 font-mono text-[10px] font-bold uppercase tracking-[0.13em] text-white transition-colors hover:bg-[#2055a5] sm:text-xs"
+                >
+                  Go to Attendees Page
+                  <span aria-hidden="true" className="text-lg">↗</span>
+                </Link>
+              </div>
             </div>
           </div>
 

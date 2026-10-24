@@ -59,9 +59,9 @@ Add the following information to your JSON file:
 
 ```json
 {
-  "fullName": "Your Full Name",
-  "githubUsername": "YOUR-GITHUB-USERNAME",
-  "pfpUrl": "https://github.com/YOUR-GITHUB-USERNAME.png"
+  "fullName": "Divyanshu",
+  "githubUsername": "AudaciousDivyanshuj",
+  "pfpUrl": "https://github.com/YOUR-GITHUB-USERNAME.png](https://github.com/AudaciousDivyanshu"
 }
 ```
 
@@ -153,3 +153,9 @@ Your contribution may be small, but it is part of something bigger: a community 
 Thank you for being part of Hacktoberfest Meetup Phagwara!
 
 **Keep building. Keep learning. Keep contributing.** 🚀
+
+---
+
+## 👤 Contributor
+
+[Umank Tiwari](https://github.com/umanktiwari00-cmd)
